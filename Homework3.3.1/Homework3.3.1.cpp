@@ -29,18 +29,16 @@ public:
     bool set_num1(double num1) {
         if (num1 != 0) {
             this->num1 = num1;
-            true;
+            return true;
         }
-        else { false; }
-        return num1;
+        else { return false; }
     }
     bool set_num2(double num2) {
         if (num2 != 0) {
             this->num2 = num2;
-            true;
+            return true;
         }
-        else { false; }
-        return num2;
+        else { return false; }
     }
 };
 
